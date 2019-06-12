@@ -1,0 +1,65 @@
+---
+title: "eLISA Feedback"
+author: "Markus Min"
+date: "6/12/2019"
+output: html_document
+---
+
+Feedback Questionnaire - eLISA
+
+
+The Readme
+1. Is the Readme file the first document displayed upon lading the Github? Does this Readme page include a title, and the name and contact information for all project members?
+
+Yes, the Readme includes all of the above elements.
+
+2. Is the purpose of this program clear from the Introduction? What -in your own words- is the motivation behind the program.
+
+The purpose is clearly laid out. This program takes a taxonomy file from eDNA work and figures out which species found in the sample are invasive.
+
+3. Is there a program workflow and is it easy to understand? What -in your own words- is the program workflow?
+
+The program workflow is very clearly laid out, complete with a nice workflow diagram. A master script is used to run two scripts, one that pulls all the species name one that figures out which are invasive.
+
+4. Are the dependencies indicated in the workflow? If there are Hoffman2 specific requirements are they indicated?
+
+The dependcies are indicated after the workflow. The dependencies are made very clear, and it doesn't sound like there are any Hoffman2-specific requirements.
+
+5. Are there instructions for running the program? Do the instructions make sense? What would you do to improve the instructions?
+
+The instructions are all very clear! I think they're very well-written, with an effective use of bold.
+
+6. Is there a section that indicates the files and directories produced by the program?
+
+There is!
+
+7. Are the research programs / motivations for the program cited? Are the dependencies cited?
+
+Yes, they are.
+
+The Scripts
+8. Is there a directory that contains all of the program scripts?
+
+Yes, there is.
+
+9. Do these programs generate a run log?
+
+Not as far as I can tell.
+
+The Vignette
+10. Is there a directory called Vignette and does it include a test set, the commands used to run the program and the expected output databases?
+
+Yes!
+
+11. Where you able to run the Vignette using the small test dataset? If not what errors did you get? If so was it easy to run the dataset? Where the instructions clear.
+
+Yes, it ran smoothly.
+
+12. Where you able to reproduce the expected output? If not what was different.
+
+I was!
+
+General
+13. Give at least two suggestions for ways to improve the GitHub page or the operation of the program.
+
+I think the GitHub page and program are very well-written, and the program is quite useful. It might be useful to have more information about the invasive species, like their common name or family/order or something like that. It could also be useful to have some sort of summary statistic that sums all the invasive species found in all of your samples, especially if the samples are biological or technical replicates.
